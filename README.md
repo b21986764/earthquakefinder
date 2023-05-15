@@ -1,4 +1,4 @@
-# earthquakefinder
+# earthquaketracker
 This is a website to fetch data from USGS api and give the earthquake information to user.
 
 Welcome to the Earthquake Finder! This application allows you to track earthquakes based on the country and the number of days before today. The data displayed includes the country, place, magnitude, and time of the earthquake.
