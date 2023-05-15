@@ -32,7 +32,6 @@ Welcome to the Earthquake Finder! This application allows you to track earthquak
 - Thymeleaf
 - HTML
 - CSS
-- JavaScript
 
 ## Contributing
 
