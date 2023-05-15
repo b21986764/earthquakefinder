@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Earthquake Results</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+</head>
+<body>
+<h1>Earthquakes in <span th:text="${country}"></span> in the past <span th:text="${days}"></span> days</h1>
+<table>
+  <thead>
+  <tr>
+    <th>Country</th>
+    <th>Place</th>
+    <th>Magnitude</th>
+    <th>Time</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="earthquake : ${earthquakes}">
+    <td th:text="${earthquake.country}"></td>
+    <td th:text="${earthquake.place}"></td>
+    <td th:text="${earthquake.magnitude}"></td>
+    <td th:text="${earthquake.dateTime}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

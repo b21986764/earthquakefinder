@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Earthquake Tracker</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="welcome-message">
+    <h1>Welcome to the Earthquake Finder!</h1>
+</div>
+
+<div class="app-description">
+    <p>This application allows you to track earthquakes based on the country and the number of days before today. The data displayed includes the country, place, magnitude, and time of the earthquake.</p>
+</div>
+
+<div class="instructions">
+    <h2>How to use the application:</h2>
+    <ol>
+        <li>Enter the country code in the 'Country' field. For United States enter the states code instead results.</li>
+        <li>Add the number of past days you want the data for in the 'Past days' field (for example, 7 for data from the past week).</li>
+        <li>Click 'Search'.</li>
+    </ol>
+</div>
+
+<h1>Search for Earthquakes</h1>
+<form action="/earthquakes" method="get">
+    <label for="country">Country:</label><br>
+    <input type="text" id="country" name="country"><br>
+    <label for="days">Past days:</label><br>
+    <input type="number" id="days" name="days"><br>
+    <input type="submit" value="Search">
+</form>
+</body>
+</html>
