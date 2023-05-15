@@ -11,11 +11,11 @@ Welcome to the Earthquake Finder! This application allows you to track earthquak
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
 
-3. Build and run the project using Maven:
+3. Build and run the project using Maven
 
 4. Open your web browser and access the application at [http://localhost:8081](http://localhost:8081).
 
