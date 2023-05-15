@@ -27,7 +27,7 @@ Welcome to the Earthquake Finder! This application allows you to track earthquak
 
 ## Technologies Used
 
-- Java
+- Java (JDK 17)
 - Spring Boot
 - Thymeleaf
 - HTML
